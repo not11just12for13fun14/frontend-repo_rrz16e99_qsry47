@@ -2,6 +2,8 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import Stats from './components/Stats'
 import CTA from './components/CTA'
+import Rides from './components/Rides'
+import Eats from './components/Eats'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
           <a href="#" className="text-white font-bold text-xl tracking-tight">1bena</a>
           <nav className="hidden sm:flex items-center gap-6 text-indigo-100/90">
             <a href="#features" className="hover:text-white transition">Features</a>
+            <a href="#rides" className="hover:text-white transition">Rides</a>
+            <a href="#eats" className="hover:text-white transition">Eats</a>
             <a href="#apps" className="hover:text-white transition">Apps</a>
             <a href="/test" className="hover:text-white transition">Status</a>
           </nav>
@@ -22,6 +26,8 @@ function App() {
         <Hero />
         <Stats />
         <Features />
+        <Rides />
+        <Eats />
         <CTA />
       </main>
 

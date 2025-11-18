@@ -46,10 +46,10 @@ export default function Hero() {
           </motion.div>
 
           <motion.div id="apps" className="mt-8 flex items-center gap-4" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.4}}>
-            <a href="https://apps.apple.com/" target="_blank" rel="noreferrer" className="hover:opacity-90 transition">
+            <a href="https://apps.apple.com/app/id0000000000" target="_blank" rel="noreferrer" className="hover:opacity-90 transition">
               <img alt="Download on the App Store" className="h-12" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" />
             </a>
-            <a href="https://play.google.com/store" target="_blank" rel="noreferrer" className="hover:opacity-90 transition">
+            <a href="https://play.google.com/store/apps/details?id=com.onebena" target="_blank" rel="noreferrer" className="hover:opacity-90 transition">
               <img alt="Get it on Google Play" className="h-12" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" />
             </a>
           </motion.div>
