@@ -5,7 +5,7 @@ const items = [
   {
     icon: Car,
     title: 'Taxi rides',
-    desc: 'Safe, reliable rides with upfront pricing across Banjul, Serrekunda, and beyond.'
+    desc: 'Safe, reliable rides with upfront pricing across Banjul, Serrekunda, Brikama and beyond.'
   },
   {
     icon: UtensilsCrossed,
@@ -24,7 +24,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white">Everything in one place</h2>
-          <p className="mt-3 text-indigo-100/80">Built for Gambia — optimized for speed, safety, and convenience.</p>
+          <p className="mt-3 text-indigo-100/80">Built in The Gambia — optimized for speed, safety, and convenience across West Africa.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -37,7 +37,7 @@ export default function Features() {
               viewport={{ once: true, amount: 0.3 }}
               transition={{ duration: 0.4, delay: i * 0.05 }}
             >
-              <item.icon className="w-8 h-8 text-indigo-400" />
+              <item.icon className="w-8 h-8 text-white" style={{color: i % 3 === 0 ? '#dc2626' : i % 3 === 1 ? '#1d4ed8' : '#16a34a'}} />
               <h3 className="mt-4 text-xl font-semibold text-white">{item.title}</h3>
               <p className="mt-2 text-indigo-100/80">{item.desc}</p>
             </motion.div>
